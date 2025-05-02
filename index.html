@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nurin Shrestha</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Achievements</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="/portfolio-html-css-js/assets/Simple Professional Name Introduction LinkedIn Profile Picture.png" alt="Nurin Shrestha profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nurin Shrestha</h1>
+        <p class="section__text__p2">Essence Manager | Project Manager </p>
+        <div class="btn-container">
+          
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/edu.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Aisan College of Higher Studies</h3>
+              <p>2078 - Present<br />BSc. Computer Science and Information Technology</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/edu.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Prasadi Academy</h3>
+              <p>+2<br />Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                An ambitious and driven individual with a strong passion for personal
+                growth and leadership. Guided by values of integrity and collaboration, I
+                thrive in dynamic environments and enjoy embracing challenges that
+                foster both personal and professional development.
+                Focused on continuous improvement, building meaningful relationships,
+                and encouraging teamwork. I am eager to bring fresh ideas to the table
+                and create impactful experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow (1).png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+            <h2 class="experience-sub-title">Essence Manager</h2>
+            <p> 2025/02 - PRESENT</p><br>
+            <div class="article-container">
+              <article>
+                
+                <div>
+                  <p>Planned and executed SDG-aligned events with a focus on timely delivery and quality outcomes, collaborating across departments to ensure aligned goals, clear communication, and successful execution. Tracked key performance indicators and compiled actionable insights to enhance future planning, while efficiently managing resources, budgets, and logistics. Maintained thorough documentation and follow-ups to support seamless internal coordination and accountability. </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+            <h2 class="experience-sub-title">Junior Business Development Manager</h2>
+            <p>2024/08 - 2025/01</p><br>
+            <div class="article-container">
+              <article>
+                <div>
+                  <p>Handled contract negotiations by ensuring mutual agreement on terms, maintaining transparency, and securing favorable outcomes while aligning with organizational goals and compliance standards.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow (1).png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Achievements</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Vice President of Student Committe</h2>
+            <p>Asian College of Higher Studies</p><br><br>
+            <div class="btn-container">
+                <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://achsnepal.edu.np/'"
+              >
+                ACHS
+              </button> 
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">College Representative</h2>
+            <p>CSIT Association of Nepal</p><br><br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://csitan.org.np/'"
+              >
+               CSITAN
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Active Voulunteering</h2>
+            <p>Youth Advocacy Nepal</p><br><br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://yan.org.np/'"
+              >
+               YAN
+            </div>
+          </div>    
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow (1).png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">nurinshrestha@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/nurinshrestha/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Nurin Shrestha. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
